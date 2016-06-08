@@ -39,4 +39,5 @@ if __name__ == "__main__":
     env.process(driver(env, car))
     #any call to env.process will not be started unless we call env.run 
     env.run(until = 15)
+    print env.now
 
